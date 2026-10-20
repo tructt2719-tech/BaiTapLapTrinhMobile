@@ -178,3 +178,43 @@ Với dữ liệu mẫu gồm hai số 4 và 4, kết quả đạt được:
 - Phép chia: 1.
 
 Ngoài ra, ứng dụng có thể kiểm tra dữ liệu đầu vào, thông báo khi người dùng nhập số không hợp lệ hoặc thực hiện phép chia cho 0, giúp việc sử dụng ứng dụng an toàn và rõ ràng hơn.
+
+# Bài tập 1 – Các thành phần UI cơ bản - Tuần 4
+
+Bài tập thực hành môn Lập trình di động, xây dựng ứng dụng Android minh họa các thành phần giao diện người dùng cơ bản bằng Kotlin và Jetpack Compose.
+Ứng dụng gồm màn hình giới thiệu Jetpack Compose, danh sách các thành phần UI và các màn hình chi tiết minh họa Text, Image, TextField, PasswordField, Column và Row. Người dùng có thể nhấn vào từng thành phần để xem nội dung minh họa và sử dụng nút quay lại để điều hướng giữa các màn hình.
+Ứng dụng được xây dựng bằng **Kotlin và Jetpack Compose** trên Android Studio.
+
+## 1. Mục tiêu
+- Xây dựng giao diện Android bằng Jetpack Compose.
+- Hiển thị màn hình giới thiệu và danh sách UI Components.
+- Minh họa các thành phần hiển thị như `Text` và `Image`.
+- Minh họa thành phần nhập liệu như `TextField` và `PasswordField`.
+- Tìm hiểu cách bố trí giao diện bằng `Column` và `Row`.
+- Sử dụng `remember` và `mutableStateOf` để quản lý trạng thái.
+- Xử lý sự kiện nhấn và điều hướng giữa các màn hình.
+- Tổ chức mã nguồn thành các hàm `@Composable` để dễ tái sử dụng.
+
+## 2. Các thành phần UI được sử dụng
+
+| Nhóm | Thành phần | Chức năng |
+|---|---|---|
+| Display | Text | Hiển thị văn bản |
+| Display | Image | Minh họa thành phần hiển thị hình ảnh |
+| Input | TextField | Nhập văn bản |
+| Input | PasswordField | Minh họa trường nhập mật khẩu |
+| Layout | Column | Sắp xếp thành phần theo chiều dọc |
+| Layout | Row | Sắp xếp thành phần theo chiều ngang |
+
+Ứng dụng có các màn hình chi tiết tương ứng để người dùng xem và thử nghiệm những thành phần được giới thiệu.
+## 3. Công nghệ sử dụng
+
+- Kotlin
+- Android Studio
+- Jetpack Compose
+- Material 3
+
+## 4. Kết quả đạt được
+
+Ứng dụng xây dựng được luồng giao diện từ màn hình giới thiệu đến danh sách UI Components và các màn hình chi tiết. Người dùng có thể chọn từng thành phần, xem nội dung minh họa, nhập văn bản tại màn hình TextField và quay lại danh sách.
+Bài tập giúp em củng cố kiến thức về xây dựng giao diện khai báo bằng Jetpack Compose, quản lý trạng thái, xử lý sự kiện và tổ chức điều hướng giữa các màn hình Android.
