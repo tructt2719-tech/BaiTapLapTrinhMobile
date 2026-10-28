@@ -179,7 +179,7 @@ Với dữ liệu mẫu gồm hai số 4 và 4, kết quả đạt được:
 
 Ngoài ra, ứng dụng có thể kiểm tra dữ liệu đầu vào, thông báo khi người dùng nhập số không hợp lệ hoặc thực hiện phép chia cho 0, giúp việc sử dụng ứng dụng an toàn và rõ ràng hơn.
 
-# Bài tập 1 – Các thành phần UI cơ bản - Tuần 4
+# Bài tập 1 – Các thành phần UI cơ bản - Tuần 3
 
 Bài tập thực hành môn Lập trình di động, xây dựng ứng dụng Android minh họa các thành phần giao diện người dùng cơ bản bằng Kotlin và Jetpack Compose.
 Ứng dụng gồm màn hình giới thiệu Jetpack Compose, danh sách các thành phần UI và các màn hình chi tiết minh họa Text, Image, TextField, PasswordField, Column và Row. Người dùng có thể nhấn vào từng thành phần để xem nội dung minh họa và sử dụng nút quay lại để điều hướng giữa các màn hình.
@@ -218,3 +218,46 @@ Bài tập thực hành môn Lập trình di động, xây dựng ứng dụng A
 
 Ứng dụng xây dựng được luồng giao diện từ màn hình giới thiệu đến danh sách UI Components và các màn hình chi tiết. Người dùng có thể chọn từng thành phần, xem nội dung minh họa, nhập văn bản tại màn hình TextField và quay lại danh sách.
 Bài tập giúp em củng cố kiến thức về xây dựng giao diện khai báo bằng Jetpack Compose, quản lý trạng thái, xử lý sự kiện và tổ chức điều hướng giữa các màn hình Android.
+# Bài tập – Thực hành Navigation + OOP - Tuần 4
+
+Bài tập thực hành môn Lập trình di động, xây dựng ứng dụng Android **UTH Todo** bằng Kotlin và Jetpack Compose, tập trung vào điều hướng giữa các màn hình và tổ chức dữ liệu theo hướng đối tượng (OOP).
+Ứng dụng gồm màn hình Splash, ba trang onboarding giới thiệu các chức năng quản lý công việc và màn hình Home. Người dùng có thể chuyển qua các trang bằng nút “Tiếp tục” hoặc bỏ qua phần giới thiệu để đến màn hình chính.
+Ứng dụng được xây dựng bằng **Kotlin, Jetpack Compose và Navigation Compose** trên Android Studio.
+
+## 1. Mục tiêu
+
+- Xây dựng giao diện Android bằng Jetpack Compose.
+- Thực hành điều hướng giữa các màn hình bằng Navigation Compose.
+- Sử dụng `NavHost`, `NavController` và các route để quản lý điều hướng.
+- Áp dụng OOP để tổ chức và quản lý dữ liệu.
+- Sử dụng `data class` và `enum class` để mô hình hóa dữ liệu onboarding.
+- Tách biệt dữ liệu, nghiệp vụ và giao diện bằng Repository và UseCase.
+- Sử dụng `remember` và `mutableIntStateOf` để quản lý trạng thái chuyển trang.
+- Tổ chức các thành phần giao diện thành những hàm `@Composable` có thể tái sử dụng.
+
+## 2. Các màn hình và thành phần chính
+
+| Màn hình / Thành phần | Chức năng |
+|---|---|
+| Splash | Hiển thị màn hình khởi động |
+| Onboarding | Giới thiệu các chức năng của ứng dụng qua 3 trang |
+| Home | Màn hình chính sau khi hoàn thành onboarding |
+| OnboardingItem | Lưu dữ liệu của từng trang |
+| OnboardingRepository | Cung cấp danh sách dữ liệu onboarding |
+| OnboardingUseCase | Xử lý nghiệp vụ chuyển trang |
+| AppNavigation | Quản lý điều hướng giữa các màn hình |
+
+Ứng dụng có luồng điều hướng chính: **Splash → Onboarding → Home**.
+
+## 3. Công nghệ sử dụng
+
+- Kotlin
+- Android Studio
+- Jetpack Compose
+- Material 3
+- Navigation Compose
+
+## 4. Kết quả đạt được
+
+Ứng dụng xây dựng được giao diện onboarding gồm ba trang, hỗ trợ chuyển trang, bỏ qua phần giới thiệu và điều hướng đến màn hình Home.
+Bài tập giúp em củng cố kiến thức về lập trình hướng đối tượng, tổ chức dữ liệu bằng `data class`, phân tách trách nhiệm bằng Repository và UseCase, đồng thời thực hành điều hướng và quản lý trạng thái trong Jetpack Compose
