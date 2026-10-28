@@ -261,3 +261,42 @@ Bài tập thực hành môn Lập trình di động, xây dựng ứng dụng A
 
 Ứng dụng xây dựng được giao diện onboarding gồm ba trang, hỗ trợ chuyển trang, bỏ qua phần giới thiệu và điều hướng đến màn hình Home.
 Bài tập giúp em củng cố kiến thức về lập trình hướng đối tượng, tổ chức dữ liệu bằng `data class`, phân tách trách nhiệm bằng Repository và UseCase, đồng thời thực hành điều hướng và quản lý trạng thái trong Jetpack Compose
+# Bài tập 4 – Hệ thống Quản lý Thư viện – Tuần 4
+
+Bài tập thực hành môn Lập trình di động, xây dựng ứng dụng Android quản lý sách, sinh viên và phiếu mượn bằng Kotlin và Jetpack Compose, áp dụng lập trình hướng đối tượng (OOP).
+
+Ứng dụng gồm ba màn hình chính: Quản lý, DS Sách và Sinh viên. Người dùng có thể thêm sách vào kho, tạo phiếu mượn, theo dõi trạng thái sách, xem chi tiết phiếu mượn và xác nhận trả sách. Hệ thống hỗ trợ nhận diện sách quá hạn và tính số ngày trả muộn.
+
+Ứng dụng được xây dựng bằng **Kotlin và Jetpack Compose** trên Android Studio.
+
+## 1. Mục tiêu
+
+- Xây dựng giao diện Android bằng Jetpack Compose.
+- Áp dụng lập trình hướng đối tượng để quản lý sách, sinh viên và phiếu mượn.
+- Thêm sách với mã sách, tên sách, tác giả và ngày nhập kho.
+- Tạo phiếu mượn với thông tin người mượn, sách, ngày mượn và ngày trả dự kiến.
+- Kiểm tra trạng thái sách có sẵn hoặc đang được mượn.
+- Hiển thị danh sách sinh viên và thông tin sách đang mượn.
+- Theo dõi ngày trả, tự nhận diện quá hạn và tính số ngày trả muộn.
+- Sử dụng `remember`, `mutableStateOf` và danh sách trạng thái để cập nhật giao diện.
+
+## 2. Các chức năng chính
+
+| Màn hình | Chức năng |
+|---|---|
+| Quản lý | Hiển thị sách trong kho và thêm sách mới |
+| DS Sách | Hiển thị thông tin sách, trạng thái và tạo phiếu mượn |
+| Sinh viên | Hiển thị danh sách sinh viên, xem chi tiết phiếu mượn và xác nhận trả sách |
+
+## 3. Công nghệ sử dụng
+
+- Kotlin
+- Android Studio
+- Jetpack Compose
+- Material 3
+- Lập trình hướng đối tượng (OOP)
+
+## 4. Kết quả đạt được
+
+Ứng dụng xây dựng được luồng quản lý sách và phiếu mượn giữa ba màn hình. Người dùng có thể thêm sách, lập phiếu mượn, theo dõi sách theo từng sinh viên và cập nhật trạng thái trả sách.
+Bài tập giúp em củng cố kiến thức về lập trình hướng đối tượng, quản lý danh sách đối tượng, xử lý điều kiện và ngày tháng, quản lý trạng thái giao diện và xây dựng ứng dụng Android bằng Jetpack Compose
